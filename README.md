@@ -13,6 +13,10 @@ _Contributing to Open Source Software._
 
 Come and say hi 👋
 
+## My main project
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=kitql&theme=dark)](https://github.com/anuraghazra/github-readme-stats&theme=dark)
+
 ## Techno
 
 - Database: `#prisma`, `#Postgresql`, `#DocumentDb`, `#SQL`, `#NoSQL`
@@ -28,4 +32,4 @@ Come and say hi 👋
 
 ![JYC Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jycouet&layout=compact&theme=dark)
 
-[![JYC's GitHub stats](https://github-readme-stats.vercel.app/api?username=jycouet&&show_icons=true&theme=dark&count_private=true)](https://github.com/jycouet)
+<!-- [![JYC's GitHub stats](https://github-readme-stats.vercel.app/api?username=jycouet&&show_icons=true&theme=dark&count_private=true)](https://github.com/jycouet) -->
