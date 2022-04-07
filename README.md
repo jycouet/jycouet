@@ -15,7 +15,7 @@ Come and say hi 👋
 
 ## My main project
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=kitql&theme=dark)](https://github.com/anuraghazra/github-readme-stats&theme=dark)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=kitql&theme=dark)](https://github.com/jycouet/kitql)
 
 ## Techno
 
