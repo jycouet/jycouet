@@ -50,11 +50,11 @@ body:
     id: severity
     attributes:
       label: Severity
-    options:
-      - annoyance
-      - serious, but I can work around it
-      - blocking an upgrade
-      - blocking all usage of Houdini
+      options:
+        - annoyance
+        - serious, but I can work around it
+        - blocking an upgrade
+        - blocking all usage of Houdini
     validations:
       required: true
 
