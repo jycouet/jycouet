@@ -3,7 +3,8 @@ description: Suggest an idea for this project
 body:
     - type: markdown
       attributes:
-        value: Thank you for suggesting a new feature :pray:.
+        value: |
+        Thank you for suggesting a new feature :pray:.
 
     - type: textarea
       id: description
