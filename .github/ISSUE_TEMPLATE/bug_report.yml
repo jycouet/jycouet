@@ -49,14 +49,14 @@ body:
   - type: dropdown
     id: severity
     attributes:
-    label: Severity
+      label: Severity
     options:
       - annoyance
       - serious, but I can work around it
       - blocking an upgrade
       - blocking all usage of Houdini
     validations:
-    required: true
+      required: true
 
   - type: textarea
     id: additional
