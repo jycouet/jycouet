@@ -37,6 +37,13 @@ body:
       required: true
 
   - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: To help us, please provide a [stackblitz](https://stackblitz.com/) or [replay.io](https://docs.replay.io/docs/recording-bug-reports-80c37d7d6753485f81497570625d06f0) showing your bug. _Reproductions must be [short, self-contained and correct](http://sscce.org/)._
+      placeholder: Reproduction
+
+  - type: textarea
     id: system-info
     attributes:
       label: System Info
