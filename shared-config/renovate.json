@@ -1,0 +1,50 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":preserveSemverRanges"],
+  "automerge": false,
+  "dependencyDashboardTitle": "📦 Dependency Dashboard",
+  "baseBranches": ["main"],
+  "labels": ["dependencies"],
+  "timezone": "Europe/Paris",
+  "schedule": ["after 10pm and before 6:00am"],
+  "lockFileMaintenance": { "enabled": true },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "enabled": false,
+      "excludePackagePrefixes": ["houdini", "@kitql"]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "prPriority": -1
+    },
+    {
+      "groupName": "KitQL",
+      "matchPackagePrefixes": "@kitql"
+    },
+    {
+      "groupName": "houdini",
+      "matchPackagePrefixes": "houdini"
+    },
+    {
+      "groupName": "svelte",
+      "matchPackagePrefixes": ["@sveltejs", "svelte-check", "svelte"]
+    },
+    {
+      "groupName": "tailwind",
+      "matchPackagePrefixes": [
+        "@tailwindcss",
+        "tailwindcss",
+        "tailwind-scrollbar"
+      ]
+    },
+    {
+      "groupName": "envelop",
+      "matchPackagePrefixes": "@envelop"
+    },
+    {
+      "groupName": "icon",
+      "matchPackagePrefixes": ["unplugin-icons", "@iconify/json"]
+    }
+  ]
+}
