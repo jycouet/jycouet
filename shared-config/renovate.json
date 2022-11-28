@@ -8,7 +8,6 @@
   "labels": ["dependencies"],
   "timezone": "Europe/Paris",
   "schedule": ["after 10pm and before 6:00am"],
-  "lockFileMaintenance": { "enabled": true },
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
@@ -28,7 +27,7 @@
       "matchPackagePrefixes": "houdini"
     },
     {
-      "groupName": "JYC_sSvelte",
+      "groupName": "JYC_Svelte",
       "matchPackagePrefixes": ["@sveltejs", "svelte-check", "svelte"]
     },
     {
