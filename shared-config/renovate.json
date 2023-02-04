@@ -19,19 +19,19 @@
       "prPriority": -1
     },
     {
-      "groupName": "JYC_KitQL",
+      "groupName": "KitQL",
       "matchPackagePrefixes": "@kitql"
     },
     {
-      "groupName": "JYC_Houdini",
+      "groupName": "Houdini",
       "matchPackagePrefixes": "houdini"
     },
     {
-      "groupName": "JYC_Svelte",
+      "groupName": "Svelte",
       "matchPackagePrefixes": ["@sveltejs", "svelte-check", "svelte"]
     },
     {
-      "groupName": "JYC_Tailwind",
+      "groupName": "Tailwind",
       "matchPackagePrefixes": [
         "@tailwindcss",
         "tailwindcss",
@@ -39,11 +39,11 @@
       ]
     },
     {
-      "groupName": "JYC_Envelop",
+      "groupName": "Envelop",
       "matchPackagePrefixes": "@envelop"
     },
     {
-      "groupName": "JYC_prettier",
+      "groupName": "prettier",
       "matchPackagePrefixes": [
         "prettier",
         "prettier-plugin-svelte",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "groupName": "JYC_Icon",
+      "groupName": "Icon",
       "matchPackagePrefixes": ["unplugin-icons", "@iconify/json"]
     }
   ]
