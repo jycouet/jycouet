@@ -5,7 +5,7 @@ name: Setup Environment
 inputs:
   nodeVersion:
     description: Node.js version to use
-    required: true
+    required: false
     default: 18.17.1
   workingDirectory:
     description: Working directory
