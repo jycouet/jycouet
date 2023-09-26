@@ -1,0 +1,52 @@
+# Note: This is a composite GitHub Actions, it should do all env setup, caching an so on, so other pipelines can just compose their own stuff on top of that.
+# Docs: https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
+
+name: Setup Environment
+inputs:
+  nodeVersion:
+    description: Node.js version to use
+    required: true
+    default: 18.17.1
+  workingDirectory:
+    description: Working directory
+    required: false
+    default: ./
+  pnpmVersion:
+    description: Version of pnpm to use
+    required: false
+    default: 8.7.1
+runs:
+  using: composite
+  steps:
+    - name: Cancel Previous Runs
+      uses: styfle/cancel-workflow-action@0.11.0
+      continue-on-error: true
+      with:
+        access_token: ${{ github.token }}
+
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ inputs.nodeVersion }}
+
+    - uses: pnpm/action-setup@v2.2.4
+      name: Install pnpm
+      with:
+        version: ${{ inputs.pnpmVersion }}
+        run_install: false
+
+    - name: Get pnpm store directory
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+    - uses: actions/cache@v3
+      name: Setup pnpm cache
+      with:
+        path: ${{ env.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Install dependencies
+      run: pnpm install --frozen-lockfile
