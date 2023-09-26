@@ -16,7 +16,6 @@ inputs:
     required: false
     default: 8.7.1
 runs:
-  using: composite
   steps:
     - name: Cancel Previous Runs
       uses: styfle/cancel-workflow-action@0.11.0
@@ -36,9 +35,7 @@ runs:
         run_install: false
 
     - name: Get pnpm store directory
-      shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - uses: actions/cache@v3
       name: Setup pnpm cache
