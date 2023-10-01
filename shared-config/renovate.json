@@ -43,11 +43,16 @@
       "matchPackagePrefixes": "@envelop"
     },
     {
-      "groupName": "prettier",
+      "groupName": "prettier_eslint",
       "matchPackagePrefixes": [
+        "@trivago/prettier-plugin-sort-imports",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser",
+        "eslint",
+        "eslint-config-prettier",
+        "eslint-plugin-unused-imports",
         "prettier",
-        "prettier-plugin-svelte",
-        "@trivago/prettier-plugin-sort-imports"
+        "prettier-plugin-svelte"
       ]
     },
     {
