@@ -12,7 +12,7 @@
             "windows": "\ue62a "
           },
           "style": "powerline",
-          "template": " {{ if .WSL }}\uF17C {{ end }}{{.Icon}}{{ if .WSL }} {{ end }}",
+          "template": " {{ if .WSL }}\uF17C {{ end }}{{.Icon}} {{ if .WSL }} {{ end }}",
           "type": "os"
         },
         {
