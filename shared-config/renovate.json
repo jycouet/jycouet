@@ -12,15 +12,11 @@
     {
       "matchUpdateTypes": ["patch"],
       "enabled": false,
-      "excludePackagePrefixes": ["houdini", "@kitql"]
+      "excludePackagePrefixes": ["houdini", "@kitql", "vite"]
     },
     {
       "matchDepTypes": ["devDependencies"],
       "prPriority": -1
-    },
-    {
-      "groupName": "KitQL",
-      "matchPackagePrefixes": "@kitql"
     },
     {
       "groupName": "Houdini",
