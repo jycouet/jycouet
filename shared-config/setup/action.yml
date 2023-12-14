@@ -6,7 +6,7 @@ inputs:
   nodeVersion:
     description: Node.js version to use
     required: false
-    default: 18.17.1
+    default: 21.2.0
   workingDirectory:
     description: Working directory
     required: false
@@ -14,7 +14,7 @@ inputs:
   pnpmVersion:
     description: Version of pnpm to use
     required: false
-    default: 8.7.1
+    default: 8.10.5
 runs:
   using: composite
   steps:
