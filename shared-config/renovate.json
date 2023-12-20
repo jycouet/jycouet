@@ -12,7 +12,7 @@
     {
       "matchUpdateTypes": ["patch"],
       "enabled": false,
-      "excludePackagePrefixes": ["houdini", "@kitql", "vite"]
+      "excludePackagePrefixes": ["houdini", "@kitql", "vite", "remult"]
     },
     {
       "matchDepTypes": ["devDependencies"],
