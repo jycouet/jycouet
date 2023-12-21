@@ -57,7 +57,7 @@
       "matchPackagePrefixes": ["unplugin-icons", "@iconify/json"]
     },
     {
-      "groupName": "vitest",
+      "groupName": "Vitest",
       "matchPackagePrefixes": ["vitest", "@vitest"]
     }
   ]
