@@ -1,4 +1,4 @@
-// example of usage: 
+// example of usage: https://github.com/jycouet/kitql/blob/main/.github/renovate.json5
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
 
