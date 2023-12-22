@@ -1,0 +1,81 @@
+// example of usage: 
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  // Extend the base config
+  "extends": ["config:base", ":semanticCommitTypeAll(chore)"],
+
+  // Some tuning that works well for my repos
+  "automerge": false,
+  "rangeStrategy": "replace",
+  "baseBranches": ["main"],
+
+  // For a nice dashboard
+  "dependencyDashboardTitle": "📦 Dependency Dashboard",
+  "labels": ["dependencies"],
+
+  // Avoid noise in the middle of the day
+  "timezone": "Europe/Paris",
+  "schedule": ["after 10pm and before 6:00am"],
+
+  "packageRules": [
+    // Let's update each patch for these libs
+    {
+      "matchUpdateTypes": ["patch"],
+      "enabled": false,
+      "excludePackagePrefixes": ["houdini", "@kitql", "vite", "remult", "layerchart", "svelte-ux"]
+    },
+    // devDependencies will be prioritized last
+    {
+      "matchDepTypes": ["devDependencies"],
+      "prPriority": -1
+    },
+    // Groupings
+    {
+      "groupName": "Svelte UX & Layerchart",
+      "matchPackagePrefixes": ["layerchart", "svelte-ux"]
+    },
+    {
+      "groupName": "Houdini",
+      "matchPackagePrefixes": "houdini"
+    },
+    {
+      "groupName": "Svelte",
+      "matchPackagePrefixes": ["@sveltejs", "svelte-check", "svelte"]
+    },
+    {
+      "groupName": "Tailwind",
+      "matchPackagePrefixes": [
+        "@tailwindcss",
+        "tailwindcss",
+        "tailwind-scrollbar"
+      ]
+    },
+    {
+      "groupName": "Envelop",
+      "matchPackagePrefixes": "@envelop"
+    },
+    {
+      "groupName": "Format",
+      "matchPackagePrefixes": [
+        "@theguild/prettier-config",
+        "@trivago/prettier-plugin-sort-imports",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser",
+        "eslint",
+        "eslint-config-prettier",
+        "eslint-plugin-unused-imports",
+        "prettier",
+        "prettier-plugin-svelte"
+      ]
+    },
+    {
+      "groupName": "Icon",
+      "matchPackagePrefixes": ["unplugin-icons", "@iconify/json"]
+    },
+    {
+      "groupName": "Vitest",
+      "matchPackagePrefixes": ["vitest", "@vitest"]
+    }
+  ]
+}
