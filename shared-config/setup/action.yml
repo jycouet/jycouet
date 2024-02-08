@@ -40,12 +40,12 @@ runs:
         run_install: false
 
     - name: Get pnpm store directory
-      if: inputs.withCaching == true
+      if: inputs.withCaching == 'true'
       shell: bash
       run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - uses: actions/cache@v4
-      if: inputs.withCaching == true
+      if: inputs.withCaching == 'true'
       name: Setup pnpm cache
       with:
         path: ${{ env.STORE_PATH }}
