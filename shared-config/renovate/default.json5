@@ -23,7 +23,7 @@
     {
       "matchUpdateTypes": ["patch"],
       "enabled": false,
-      "excludePackagePrefixes": ["houdini", "@kitql", "vite", "remult", "layerchart", "svelte-ux"]
+      "excludePackagePrefixes": ["houdini", "@kitql", "vite", "remult"]
     },
     // devDependencies will be prioritized last
     {
@@ -54,20 +54,6 @@
     {
       "groupName": "Envelop",
       "matchPackagePrefixes": "@envelop"
-    },
-    {
-      "groupName": "Format",
-      "matchPackagePrefixes": [
-        "@theguild/prettier-config",
-        "@trivago/prettier-plugin-sort-imports",
-        "@typescript-eslint/eslint-plugin",
-        "@typescript-eslint/parser",
-        "eslint",
-        "eslint-config-prettier",
-        "eslint-plugin-unused-imports",
-        "prettier",
-        "prettier-plugin-svelte"
-      ]
     },
     {
       "groupName": "Icon",
