@@ -32,7 +32,7 @@
     },
     // Groupings
     {
-      "groupName": "Svelte UX & Layerchart",
+      "groupName": "Svelte-ux layerchart",
       "matchPackagePrefixes": ["layerchart", "svelte-ux"]
     },
     {
