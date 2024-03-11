@@ -20,7 +20,7 @@ inputs:
     required: false
     default: true
   frozenMode:
-    description: false: --no-frozen-lockfile, true: --frozen-lockfile
+    description: frozen-lockfile / no-frozen-lockfile
     required: false
     default: true
 runs:
