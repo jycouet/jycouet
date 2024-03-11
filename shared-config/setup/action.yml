@@ -19,6 +19,10 @@ inputs:
     description: With Caching
     required: false
     default: true
+  frozenMode:
+    description: false: --no-frozen-lockfile, true: --frozen-lockfile
+    required: false
+    default: true
 runs:
   using: composite
   steps:
@@ -54,5 +58,11 @@ runs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
+      if: inputs.frozenMode == 'true'
       shell: bash
       run: pnpm install --frozen-lockfile
+
+    - name: Install dependencies
+      if: inputs.frozenMode == 'false'
+      shell: bash
+      run: pnpm install --no-frozen-lockfile
