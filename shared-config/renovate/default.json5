@@ -41,7 +41,7 @@
     },
     {
       "groupName": "Svelte",
-      "matchPackagePrefixes": ["@sveltejs", "svelte-check", "svelte"]
+      "matchPackagePrefixes": ["@sveltejs"]
     },
     {
       "groupName": "Tailwind",
