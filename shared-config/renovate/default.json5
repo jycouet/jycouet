@@ -23,7 +23,7 @@
     {
       "matchUpdateTypes": ["patch"],
       "enabled": false,
-      "excludePackagePrefixes": ["houdini", "@kitql", "vite", "remult"]
+      "excludePackagePrefixes": ["houdini", "@kitql", "remult"]
     },
     // devDependencies will be prioritized last
     {
@@ -58,10 +58,6 @@
     {
       "groupName": "Icon",
       "matchPackagePrefixes": ["unplugin-icons", "@iconify/json"]
-    },
-    {
-      "groupName": "Vitest",
-      "matchPackagePrefixes": ["vitest", "@vitest"]
     }
   ]
 }
