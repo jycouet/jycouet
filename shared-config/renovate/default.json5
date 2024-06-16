@@ -18,7 +18,7 @@
   "timezone": "Europe/Paris",
   "schedule": ["after 10pm and before 6:00am"],
 
-  "rebaseWhen": "behind-base-branch",
+  // "rebaseWhen": "behind-base-branch",
 
   "packageRules": [
     // Let's update each patch for these libs
