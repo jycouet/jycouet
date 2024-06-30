@@ -16,7 +16,8 @@ Come and say hi 👋
 ## My main project
 
 [![KitQL](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=kitql&theme=dark)](https://github.com/jycouet/kitql)
-[![Houdini](https://github-readme-stats.vercel.app/api/pin/?username=remult&repo=remult&theme=dark)](https://github.com/remult/remult)
+[![remult](https://github-readme-stats.vercel.app/api/pin/?username=remult&repo=remult&theme=dark)](https://github.com/remult/remult)
+[![firstly](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=firstly&theme=dark)](https://github.com/jycouet/firstly)
 [![Houdini](https://github-readme-stats.vercel.app/api/pin/?username=houdinigraphql&repo=houdini&theme=dark)](https://github.com/houdinigraphql/houdini)
 
 ## Techno
