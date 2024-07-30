@@ -27,6 +27,12 @@
       "enabled": false,
       "excludePackagePrefixes": ["houdini", "@kitql", "remult"]
     },
+    // Don't update these
+    {
+      "matchUpdateTypes": ["minor"],
+      "matchPackageNames": ["@aws-sdk/**", "posthog-js"],
+      "enabled": false
+    }
     // devDependencies will be prioritized last
     {
       "matchDepTypes": ["devDependencies"],
