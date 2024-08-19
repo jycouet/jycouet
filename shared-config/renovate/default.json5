@@ -60,10 +60,6 @@
       ]
     },
     {
-      "groupName": "Envelop",
-      "matchPackagePrefixes": "@envelop"
-    },
-    {
       "groupName": "Icon",
       "matchPackagePrefixes": ["unplugin-icons", "@iconify/json"]
     }
