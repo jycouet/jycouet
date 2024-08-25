@@ -25,14 +25,14 @@
     {
       "matchUpdateTypes": ["patch"],
       "enabled": false,
-      "excludePackagePrefixes": ["houdini", "@kitql", "remult"]
+      "excludePackageNames": ["houdini", "@kitql", "remult"]
     },
     // Don't update these at minor level...
-    {
-      "matchUpdateTypes": ["minor"],
-      "matchPackageNames": ["@aws-sdk/**", "posthog-js"],
-      "enabled": false
-    },
+    // {
+    //   "matchUpdateTypes": ["minor"],
+    //   "matchPackageNames": ["@aws-sdk/**", "posthog-js"],
+    //   "enabled": false
+    // },
     // devDependencies will be prioritized last
     {
       "matchDepTypes": ["devDependencies"],
@@ -41,27 +41,15 @@
     // Groupings
     {
       "groupName": "Svelte-ux layerchart",
-      "matchPackagePrefixes": ["layerchart", "svelte-ux"]
+      "matchPackageNames": ["layerchart", "svelte-ux"]
     },
     {
       "groupName": "Houdini",
-      "matchPackagePrefixes": "houdini"
+      "matchPackageNames": "houdini**"
     },
     {
       "groupName": "Svelte",
-      "matchPackagePrefixes": ["@sveltejs"]
-    },
-    {
-      "groupName": "Tailwind",
-      "matchPackagePrefixes": [
-        "@tailwindcss",
-        "tailwindcss",
-        "tailwind-scrollbar"
-      ]
-    },
-    {
-      "groupName": "Icon",
-      "matchPackagePrefixes": ["unplugin-icons", "@iconify/json"]
+      "matchPackageNames": ["@sveltejs/**", "svelte"]
     }
   ]
 }
