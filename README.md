@@ -4,7 +4,6 @@
    </h1>
 
    [![bsky: bsky](https://img.shields.io/badge/-jyc.dev-blue?style=flat-square&logo=bluesky&logoColor=white&link=https://bsky.app/profile/jyc.dev)]([https://bsky.app/profile/jyc.dev](https://bsky.app/profile/jyc.dev))
-   [![Twitter: jycouet](https://img.shields.io/badge/-jycouet-black?style=flat-square&logo=x&logoColor=white&link=https://twitter.com/jycouet)](https://twitter.com/jycouet)
    [![Youtube: jycouet](https://img.shields.io/badge/-Jean%20Yves%20Couët-red?style=flat-square&logo=youtube&logoColor=white&link=https://www.youtube.com/channel/UC5053FCXP9BVpW7CHpeA2IA)](https://www.youtube.com/channel/UC5053FCXP9BVpW7CHpeA2IA)
    [![Linkedin: jycouet](https://img.shields.io/badge/-jycouet-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jycouet/)](https://www.linkedin.com/in/jycouet/)
   
@@ -18,16 +17,14 @@ Come and say hi 👋
 
 [![KitQL](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=kitql&theme=dark)](https://github.com/jycouet/kitql)
 [![remult](https://github-readme-stats.vercel.app/api/pin/?username=remult&repo=remult&theme=dark)](https://github.com/remult/remult)
-[![firstly](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=firstly&theme=dark)](https://github.com/jycouet/firstly)
-[![Houdini](https://github-readme-stats.vercel.app/api/pin/?username=houdinigraphql&repo=houdini&theme=dark)](https://github.com/houdinigraphql/houdini)
 
 ## Techno
 
-- Database: `#Postgresql`, `#DocumentDb`, `#SQL`, `#NoSQL`
-- Backend: `#Nodejs`, `#GraphQL`, `#Typescript`,`#IEC61499`, `#C#`
-- Frontend: `#SvelteKit`, `#GraphQL`, `#React`, `#Angular`, `#HTML`, `#CSS` _at least a bit 😜_
-- Cloud: `#Render`, `#Heroku`, `#Azure`, `#AWS`
-- Others: `#PPT`, `#Excel`, `#Git`, `#DevOps`, `#SVN`
+- Database: `#remult`, `#Postgresql`, `#DocumentDb`, `#SQL`, `#NoSQL`
+- Backend: `#remult`, `#Nodejs`, `#GraphQL`, `#Typescript`,`#IEC61499`, `#C#`
+- Frontend: `#remult`, `#SvelteKit`, `#GraphQL`, `#React`, `#Angular`, `#HTML`, `#CSS` _at least a bit 😜_
+- Cloud: `#remult`, `#Render`, `#Heroku`, `#Azure`, `#AWS`
+- Others: `#remult`, `#PPT`, `#Excel`, `#Git`, `#DevOps`, `#SVN`
 
 ## Some Stats
 [![GitHub Streak](https://streak-stats.demolab.com?user=jycouet&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
