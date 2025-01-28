@@ -40,8 +40,8 @@
     },
     // Groupings
     {
-      "groupName": "Svelte-ux layerchart",
-      "matchPackageNames": ["layerchart", "svelte-ux"]
+      "groupName": "Svelte-ux layerstack layerchart",
+      "matchPackageNames": ["layerchart", "svelte-ux", "@layerstack/*"]
     },
     {
       "groupName": "Houdini",
