@@ -46,10 +46,10 @@
     {
       "groupName": "Houdini",
       "matchPackageNames": "houdini**"
-    },
-    {
-      "groupName": "Svelte",
-      "matchPackageNames": ["@sveltejs/**", "svelte"]
     }
+    // {
+    //   "groupName": "Svelte",
+    //   "matchPackageNames": ["@sveltejs/**", "svelte"]
+    // }
   ]
 }
