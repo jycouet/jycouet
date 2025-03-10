@@ -25,7 +25,7 @@
     {
       "matchUpdateTypes": ["patch"],
       "enabled": false,
-      "excludePackageNames": ["houdini", "@kitql", "remult"]
+      "excludePackageNames": ["@kitql", "remult", "firstly"]
     },
     // Don't update these at minor level...
     // {
