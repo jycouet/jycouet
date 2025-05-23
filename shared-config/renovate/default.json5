@@ -28,11 +28,11 @@
       "excludePackageNames": ["@kitql", "remult", "firstly"]
     },
     // Don't update these at minor level...
-    // {
-    //   "matchUpdateTypes": ["minor"],
-    //   "matchPackageNames": ["@aws-sdk/**", "posthog-js"],
-    //   "enabled": false
-    // },
+    {
+       "matchUpdateTypes": ["minor"],
+       "enabled": false,
+       "matchPackageNames": ["pnpm"]
+    },
     // devDependencies will be prioritized last
     {
       "matchDepTypes": ["devDependencies"],
