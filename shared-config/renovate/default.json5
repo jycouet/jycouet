@@ -25,7 +25,7 @@
     {
       "matchUpdateTypes": ["patch"],
       "enabled": false,
-      "excludePackageNames": ["@kitql", "remult", "firstly"]
+      "excludePackageNames": ["@kitql", "@kitql/*", "remult", "firstly", "vite-plugin-stripper", "vite-plugin-kit-routes", "vite-plugin-watch-and-run"]
     },
     // Don't update these at minor level...
     {
