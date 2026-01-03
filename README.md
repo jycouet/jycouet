@@ -13,11 +13,6 @@ _Contributing to Open Source Software._
 
 Come and say hi 👋
 
-## My main project
-
-[![KitQL](https://github-readme-stats.vercel.app/api/pin/?username=jycouet&repo=kitql&theme=dark)](https://github.com/jycouet/kitql)
-[![remult](https://github-readme-stats.vercel.app/api/pin/?username=remult&repo=remult&theme=dark)](https://github.com/remult/remult)
-
 ## Techno
 
 - Database: `#remult`, `#Postgresql`, `#DocumentDb`, `#SQL`, `#NoSQL`
@@ -25,10 +20,3 @@ Come and say hi 👋
 - Frontend: `#remult`, `#SvelteKit`, `#GraphQL`, `#React`, `#Angular`, `#HTML`, `#CSS` _at least a bit 😜_
 - Cloud: `#remult`, `#Render`, `#Heroku`, `#Azure`, `#AWS`
 - Others: `#remult`, `#PPT`, `#Excel`, `#Git`, `#DevOps`, `#SVN`
-
-## Some Stats
-[![GitHub Streak](https://streak-stats.demolab.com?user=jycouet&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
-![JYC Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jycouet&layout=compact&theme=dark)
-
-<!-- [![JYC's GitHub stats](https://github-readme-stats.vercel.app/api?username=jycouet&&show_icons=true&theme=dark&count_private=true)](https://github.com/jycouet) -->
