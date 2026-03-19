@@ -14,6 +14,10 @@
   "dependencyDashboardTitle": "📦 Dependency Dashboard",
   "labels": ["dependencies"],
 
+  // auto close no needed PR
+  "suppressNotifications": ["prEditedNotification"],
+  "pruneStaleBranches": true,
+
   // Avoid noise in the middle of the day
   "timezone": "Europe/Paris",
   "schedule": ["after 10pm and before 6:00am"],
