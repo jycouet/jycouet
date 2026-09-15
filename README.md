@@ -9,6 +9,8 @@
   
 </div>
 
+Right now building [kimbia.app](https://kimbia.app/)
+
 _Contributing to Open Source Software._
 
 Come and say hi 👋
