@@ -31,17 +31,17 @@ runs:
   using: composite
   steps:
     - name: Cancel Previous Runs
-      uses: styfle/cancel-workflow-action@0.12.1
+      uses: styfle/cancel-workflow-action@0.13.1
       continue-on-error: true
       with:
         access_token: ${{ github.token }}
 
     - name: Install Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v7
       with:
         node-version: ${{ inputs.nodeVersion }}
 
-    - uses: pnpm/action-setup@v4
+    - uses: pnpm/action-setup@v6
       name: Install pnpm
       with:
         version: ${{ inputs.pnpmVersion }}
@@ -56,7 +56,7 @@ runs:
       shell: bash
       run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
-    - uses: actions/cache@v4
+    - uses: actions/cache@v6
       if: inputs.withCaching == 'true'
       name: Setup pnpm cache
       id: pnpm-cache

@@ -18,6 +18,10 @@
   "suppressNotifications": ["prEditedNotification"],
   "pruneStaleBranches": true,
 
+  // Match pnpm's minimumReleaseAge (1440 min), else PRs fail install with ERR_PNPM_NO_MATURE_MATCHING_VERSION
+  "minimumReleaseAge": "1 day",
+  "internalChecksFilter": "strict",
+
   // Avoid noise in the middle of the day
   "timezone": "Europe/Paris",
   "schedule": ["after 10pm and before 6:00am"],
@@ -25,6 +29,11 @@
   // "rebaseWhen": "behind-base-branch",
 
   "packageRules": [
+    // Same as pnpm's minimumReleaseAgeExclude
+    {
+      "matchPackageNames": ["remult", "firstly", "@kitql/*"],
+      "minimumReleaseAge": "0 days"
+    },
     // Let's update each patch for these libs
     {
       "matchUpdateTypes": ["patch"],
